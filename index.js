@@ -1,7 +1,7 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
     {
       type: 'input',
@@ -13,21 +13,16 @@ const questions = [
       name: 'description',
       message: 'Please provide a description for your project:',
     },
-    // {
-    //   type: 'input',
-    //   name: 'tableOfContents',
-    //   message: 'Please provide the sections for your table of contents:',
-    //   default: '(EX: Installation Usage Credits License)',
-    // },
     {
       type: 'input',
       name: 'installation',
       message: 'Please provide the installation instructions',
+      default: '(If none, write N/A)',
     },
     {
       type: 'input',
       name: 'usage',
-      message: 'Please provide paragraph w/ instructions and examples for use.',
+      message: 'Please provide instructions and examples for use.',
     },
     {
       type: 'list',
@@ -64,7 +59,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile (info) {
-    fs.writeFile('../README.md', info, (err) => {
+    fs.writeFile('assets/sample.md', info, (err) => {
         if (err) {
           console.error(err);
         } else {
