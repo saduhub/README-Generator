@@ -8,17 +8,15 @@ This is an example readme me made by the readme generator.
 
 ## Table of Contents
 
-- [Installation](#installation)
-
-- [Usage](#usage)
-
-- [License](#license)
-
-- [Credits](#credits)
-
-- [Tests](#tests)
-
-- [Questions](#questions)
+- [Project X](#project-x)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Credits](#credits)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
 
 
@@ -45,4 +43,3 @@ N/A
 ## Questions
 
 If you have any questions, feel free to checkout my [GitHub](https://github.com/githubUsername123) or reach out to email@email.com!
-
